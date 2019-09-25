@@ -1,0 +1,33 @@
+.mainDiv{
+  border: 1px solid rgb(122, 116, 116);
+}
+
+i{
+  color: rgba(48, 48, 216,0.9);
+  font-size: 28px;
+  opacity: 0.9;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  height: 8rem;
+}
+
+.iconClass{
+  align-self: center;
+}
+
+.description{
+  align-self: center;
+}
+.description :nth-child(odd){
+  color: rgb(109, 99, 99);
+  margin-bottom: 0;
+}
+.description :nth-child(even){
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: rgb(53, 48, 48);
+}

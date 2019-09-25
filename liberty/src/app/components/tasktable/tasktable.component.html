@@ -1,0 +1,32 @@
+<div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Assignee</th>
+        <th>Task Details</th>
+        <th>Payment Method</th>
+        <th>Payment Status</th>
+        <th>Amount</th>
+        <th>Tracking Number</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let item of data.sample" >
+        <td> {{item.ID}} </td>
+        <td> {{item.Assignee}} </td>
+        <td> {{item.TaskDetails}} </td>
+        <td> {{item.PaymentMethod}} </td>
+        <td> {{item.Paymentstatus}} </td>
+        <td>
+          <button class="btn btn-success">{{item.Amount}}</button>
+        </td>
+        <td> {{item.Trackingnumber}} </td>
+      </tr>
+    </tbody>
+
+  </table>
+
+</div>

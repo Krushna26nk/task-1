@@ -1,0 +1,40 @@
+.navbar-brand{
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+// .container{
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.navbar-brand :nth-child(odd){
+  color: rgba(48, 48, 216,0.9);
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbarHeadingPart {
+  // border: 1px solid;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.notificationIcon{
+  font-size: 25px;
+}
+
+.searchbar{
+  width: 50%;
+}
+// image
+
+.img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}

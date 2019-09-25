@@ -1,0 +1,18 @@
+<div class="mainDiv">
+
+  <div class="row">
+        <div class="card col-3" *ngFor="let item of data.sample" >
+          <div class="iconClass">
+            <div><i class="fa fa-{{item.iconname}}"> </i></div>
+          </div>
+
+          <div class="description">
+                  <p> {{item.head}} </p>
+
+                  <p> {{item.count}} </p>
+          </div>
+
+        </div>
+  </div>
+
+</div>
