@@ -1,6 +1,15 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .navbar-brand{
   font-size: 25px;
   letter-spacing: 1px;
+}
+.navbar{
+  border-bottom: 1px solid rgba(130, 130, 180,0.6);
 }
 
 // .container{
@@ -19,22 +28,60 @@
 
 .navbarHeadingPart {
   // border: 1px solid;
-  width: 70%;
+  width: 50%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  // flex-direction: row;
+  justify-content: space-evenly;
+  opacity: 0.9;
 }
 .notificationIcon{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .searchbar{
   width: 50%;
+  // height: 5%;
+}
+
+.input-group-text{
+  height: 25px;
+}
+.input-group .form-control{
+  height: 25px;
 }
 // image
 
 .img{
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
+}
+
+.btn{
+  color: rgb(22, 19, 37);
+  font-size: 12px;
+  width: 100%;
+  line-height: 25px;
+  // letter-spacing: 0.5px;
+  border-radius:0;
+}
+.active{
+  background: linear-gradient(30deg, #464de4, #814eff);
+  color: aliceblue;
+  .fa{
+    color: aliceblue;
+  }
+  outline: none;
+}
+
+.col-2{
+  width: 100%;
+}
+
+.span , .fa{
+  margin:5px;
+  font-size: 14px;
+}
+.fa{
+  color: #464de4;
 }

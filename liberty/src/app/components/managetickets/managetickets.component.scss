@@ -1,0 +1,65 @@
+.mainDiv{
+  color: rgba(22, 22, 110, 0.2);
+  border: 1px solid;
+  padding: 10px;
+}
+
+.heading{
+  color: rgba(22, 22, 110, 0.9);
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+
+img{
+  height: 45px;
+  width:45px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+// title
+
+.title :nth-child(1){
+  color: rgba(22, 22, 110, 0.9);
+  font-weight: 900;
+}
+
+.title :nth-child(2) {
+  color: rgba(26, 26, 107, 0.5);
+  font-size: 14px;
+}
+.title :nth-child(3) {
+  color: rgba(22, 22, 110, 0.9);
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.9;
+  letter-spacing: 0.1px;
+}
+
+
+// .description
+
+.description{
+  color: rgba(40, 40, 92, 0.9);
+  font-size: 15px;
+}
+
+
+// columns
+
+.col-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-8{
+  display: flex;
+  align-items: center;
+}
+
+button{
+  font-size: 14px;
+}

@@ -1,4 +1,4 @@
-<div class="mainDiv">
+<div class="container mainDiv">
 
   <div class="row">
         <div class="card col-3" *ngFor="let item of data.sample" >
@@ -7,9 +7,9 @@
           </div>
 
           <div class="description">
-                  <p> {{item.head}} </p>
+                  <p class="head"> {{item.head}} </p>
 
-                  <p> {{item.count}} </p>
+                  <p class="count"> {{item.count}} </p>
           </div>
 
         </div>

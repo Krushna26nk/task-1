@@ -1,0 +1,32 @@
+<div class="container mainDiv">
+  <div>
+    <div class="heading"> Manage Tickets </div>
+  </div>
+
+  <hr style="border: 0.5px solid;width: 100%;opacity: 0.6;">
+
+  <div class="row" *ngFor="let item of data.sample">
+
+    <div class="col-1">
+      <div>
+          <img [src]="item.imageUrl" alt="first">
+      </div>
+    </div>
+
+    <div class="col-8">
+      <div>
+          <p class="title"> <span> {{item.name}} </span> <span>: [{{item.id}}] </span><span> {{item.title}}</span> </p>
+          <p class="description"> {{item.description}} </p>
+          <div style="display: flex;justify-content: space-between;"> <div>Last Responded: 3 hours ago</div>  <div>Due In: 2 days</div> </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <button class="btn" style="background-color: rgba(55, 55, 226,0.9);color: aliceblue;padding: 2px 8px 2px 8px;">Manage</button>
+    </div>
+
+    <hr style="border: 0.5px solid;width: 80%;opacity: 0.5;">
+
+  </div>
+
+</div>

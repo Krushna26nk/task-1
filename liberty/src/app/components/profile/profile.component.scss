@@ -1,0 +1,35 @@
+.container{
+  border: 1px solid rgba(131, 131, 204,0.3);
+}
+
+button{
+  background: #464DE4;
+  color: aliceblue;
+  line-height: 10px;
+  font-size: 13px;
+}
+
+.name{
+  color: #354168;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.position{
+  color: gray;
+}
+
+.description{
+  word-wrap: break-word;
+  word-break: break-all;
+  color: #354168;
+}
+.col-4{
+  color: #354168;
+}
+.col-4 :nth-child(1){
+  font-weight: 600;
+}
+.col-4 :nth-child(2){
+  font-size: 13px;
+}

@@ -1,5 +1,6 @@
-.mainDiv{
-  border: 1px solid rgb(122, 116, 116);
+
+.container{
+  border: 1px solid rgba(22, 22, 110, 0.2);
 }
 
 i{
@@ -23,11 +24,13 @@ i{
   align-self: center;
 }
 .description :nth-child(odd){
-  color: rgb(109, 99, 99);
+  color: rgb(70, 84, 133);
   margin-bottom: 0;
+  font-size: 14px;
 }
 .description :nth-child(even){
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 1px;
-  color: rgb(53, 48, 48);
+  color: rgb(73, 73, 90);
 }
+

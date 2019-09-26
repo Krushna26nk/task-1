@@ -1,8 +1,33 @@
+
+.container{
+  border: 1px solid rgba(22, 22, 110, 0.2);
+}
+
 td{
-  color: rgb(90, 85, 85);
+  color: rgba(76, 109, 175,0.8);
   opacity: 0.9;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+thead{
+  color: rgb(76, 109, 175);
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 button{
+  opacity: 0.9;
   height: 25px;
   text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  // padding: 5px;
 }
+button :nth-child(1){
+  // color: red;
+  // border: 1px solid;
+  margin-top: -3px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+

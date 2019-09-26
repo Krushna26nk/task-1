@@ -9,42 +9,44 @@ export class TasktableComponent implements OnInit {
 
   constructor() { }
 
+  btnClass;
+
   data = {
     "sample": [{
       "ID": "#320",
       "Assignee": "Mr.Rankov",
       "TaskDetails": "Support Of theme",
-      "PaymentMethod":"credit",
-      "Paymentstatus":"active",
-      "Amount":"$3250",
-      "Trackingnumber":"#14454dfdfdf"
+      "PaymentMethod":"Credit Card",
+      "Paymentstatus":"Approved",
+      "Amount":"$ 32,50",
+      "Trackingnumber":"#HDFUDF14454"
     },
     {
-      "ID": "#320",
-      "Assignee": "Mr.Rankov",
-      "TaskDetails": "Support Of theme",
-      "PaymentMethod":"credit",
-      "Paymentstatus":"active",
-      "Amount":"$3250",
-      "Trackingnumber":"#14454dfdfdf"
+      "ID": "#321",
+      "Assignee": "Josh D",
+      "TaskDetails": "Verify Your Email Address",
+      "PaymentMethod":"Internet Banking",
+      "Paymentstatus":"Pending",
+      "Amount":"$ 32,50",
+      "Trackingnumber":"#ABFGC14454d"
     },
     {
-      "ID": "#320",
-      "Assignee": "Mr.Rankov",
-      "TaskDetails": "Support Of theme",
-      "PaymentMethod":"credit",
-      "Paymentstatus":"active",
-      "Amount":"$3250",
-      "Trackingnumber":"#14454dfdfdf"
+      "ID": "#322",
+      "Assignee": "Phillepe T",
+      "TaskDetails": "Item Support msg send",
+      "PaymentMethod":"Credit Card",
+      "Paymentstatus":"Approved",
+      "Amount":"$ 32,50",
+      "Trackingnumber":"#EFRD14454"
     },
     {
-      "ID": "#320",
-      "Assignee": "Mr.Rankov",
-      "TaskDetails": "Support Of theme",
-      "PaymentMethod":"credit",
-      "Paymentstatus":"active",
-      "Amount":"$3250",
-      "Trackingnumber":"#14454dfdfdf"
+      "ID": "#323",
+      "Assignee": "Luke Pixel",
+      "TaskDetails": "New Submission on website",
+      "PaymentMethod":"Cash on Delivery",
+      "Paymentstatus":"Rejected",
+      "Amount":"$ 32,50",
+      "Trackingnumber":"#RDEFR14454"
     }]
   }
 
