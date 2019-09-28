@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Chart} from 'chart.js';
 
 @Component({
   selector: 'app-updates',
@@ -10,6 +11,7 @@ export class UpdatesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

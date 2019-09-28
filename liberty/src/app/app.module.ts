@@ -11,6 +11,7 @@ import { BargraphComponent } from './components/bargraph/bargraph.component';
 import { AreagraphComponent } from './components/areagraph/areagraph.component';
 import { GraphcontaineComponent } from './components/graphcontaine/graphcontaine.component';
 import { UpdatesComponent } from './components/updates/updates.component';
+import { UpdatesbothComponent } from './components/updatesboth/updatesboth.component';
 
 
 
@@ -26,7 +27,8 @@ import { UpdatesComponent } from './components/updates/updates.component';
     BargraphComponent,
     AreagraphComponent,
     GraphcontaineComponent,
-    UpdatesComponent
+    UpdatesComponent,
+    UpdatesbothComponent
   ],
   imports: [
     BrowserModule
